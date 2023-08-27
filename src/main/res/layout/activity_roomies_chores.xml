@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Chores"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:typeface="sans"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <CheckBox
+            android:id="@+id/clean_toilet_checkbox"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/box_rounded_pink"
+            android:gravity="center"
+
+            android:textStyle="bold"
+
+            android:text="@string/Clean_toilet"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:elevation="15dp"
+            android:typeface="sans" />
+
+        <CheckBox
+            android:id="@+id/clean_shower_checkbox"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/box_rounded_pink"
+            android:gravity="center"
+            android:text="@string/Clean_shower"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:elevation="15dp"
+            android:typeface="sans" />
+
+        <CheckBox
+            android:id="@+id/mop_floor_checkbox"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/box_rounded_pink"
+            android:gravity="center"
+            android:text="@string/Mop_floor"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:elevation="15dp"
+            android:typeface="sans" />
+
+        <CheckBox
+            android:id="@+id/take_out_trash_checkbox"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/box_rounded_pink"
+            android:gravity="center"
+            android:text="@string/take_out_trash"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:elevation="15dp"
+            android:typeface="sans" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:src="@drawable/add_circle"
+            android:contentDescription="@string/add" />
+
+    </LinearLayout>
+
+    <!-- Navigation bar at the bottom of the screen -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/rooomies_Blue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/rooomies_Blue">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/home"
+                android:elevation="20dp"
+                android:src="@drawable/icons_house" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/calendar"
+                android:elevation="20dp"
+                android:src="@drawable/icons_calendar" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/lists"
+                android:elevation="20dp"
+                android:src="@drawable/icons_lists" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/click"
+                android:contentDescription="@string/chores"
+                android:elevation="20dp"
+                android:src="@drawable/icons_chores" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/requests"
+                android:elevation="20dp"
+                android:src="@drawable/icons_requests" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

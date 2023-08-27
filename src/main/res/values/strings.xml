@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Roomie_Final</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="welcome_to_roomies">Welcome to Roomies</string>
+    <string name="register_to_roomies">Register To Roomies</string>
+    <string name="register">Register</string>
+    <string name="click_here_to_login">Click Here to Login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="logout">Logout</string>
+    <string name="Chores">Chores</string>
+    <string name="Clean_toilet">Clean Toilet</string>
+    <string name="Clean_shower">Clean Shower</string>
+    <string name="Mop_floor">Mop Floor</string>
+    <string name="take_out_trash">Take out Trash</string>
+    <string name="home">Home</string>
+    <string name="lists">lists</string>
+    <string name="calendar">calendar</string>
+    <string name="chores">chores</string>
+    <string name="requests">requests</string>
+    <string name="add">add</string>
+    <string name="exit">exit</string>
+</resources>

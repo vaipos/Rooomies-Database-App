@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box_rounded_blue"
+    tools:context=".addpopup" >
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="110dp"
+        android:background="@color/roomies_Blue"
+        android:contentDescription="@string/exit"
+        android:elevation="20dp"
+        android:src="@drawable/exit_icon" />
+
+    <TextView
+        android:id="@+id/toilet_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Toiletries:"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:typeface="sans"/>
+
+    <TextView
+        android:id="@+id/stuff_textview"
+        android:layout_width="275dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/box_rounded_pink"
+        android:gravity="center"
+        android:text="stuff\nstuff\nstuff"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/mAdd_Button"
+        android:layout_width="108dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box_rounded_pink"
+        android:backgroundTint="@color/roomies_Pink"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

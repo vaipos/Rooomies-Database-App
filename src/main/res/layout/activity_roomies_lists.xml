@@ -1,0 +1,94 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lists"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:typeface="sans"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="565dp"/>
+
+
+    <!-- Navigation bar at the bottom of the screen -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/rooomies_Blue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/rooomies_Blue">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/home"
+                android:elevation="20dp"
+                android:src="@drawable/icons_house" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/calendar"
+                android:elevation="20dp"
+                android:src="@drawable/icons_calendar" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/click"
+                android:contentDescription="@string/lists"
+                android:elevation="20dp"
+                android:src="@drawable/icons_lists" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/chores"
+                android:elevation="20dp"
+                android:src="@drawable/icons_chores" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:background="@color/rooomies_Blue"
+                android:contentDescription="@string/requests"
+                android:elevation="20dp"
+                android:src="@drawable/icons_requests" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
